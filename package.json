@@ -1,5 +1,5 @@
 {
-  "name": "node-client-bp",
+  "name": "node-server-bp",
   "version": "0.0.1",
   "description": "A simple boilerplate for node servers and libraries",
   "main": "index.js",
