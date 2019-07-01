@@ -1,6 +1,6 @@
 import * as  http from 'http';
 
-export default function errorRoute (response: http.ServerResponse, error: string): void {
+export default function errorRoute (request: http.IncomingMessage, response: http.ServerResponse, error: string): void {
     if (error === '404') {
         response.writeHead(404, {"Content-Type": "text/html"});
         response.write("Page not found");
